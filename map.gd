@@ -122,6 +122,35 @@ func make_maze():
 			stack.append(current)
 			# remove walls from *both* cells
 			var dir = next - current
+			var current_walls = Map.get_cell_source_id(current) - cell_walls[dir]
+			var next_walls = Map.get_cell_source_id(next) - cell_walls[-dir]
+			Map.set_cell(current, 0, map(current_walls))
+			Map.set_cell(next, 0, map(next_walls))
+			current = next
+			unvisited.erase(current)
+		elif stack:
+			current = stack.pop_back()
+
+
+func _make_maze():
+	var unvisited = [] # array of unvisited tiles
+	var stack = []
+	# fill the map with solid tiles
+	Map.clear()
+	for x in range(width):
+		for y in range(height):
+			unvisited.append(Vector2i(x, y))
+			Map.set_cell(Vector2i(x, y), 0, map(15))
+	var current = Vector2i(0, 0)
+	unvisited.erase(current)
+	
+	while unvisited:
+		var neighbors = check_neighbors(current, unvisited)
+		if neighbors.size() > 0:
+			var next = neighbors[randi() % neighbors.size()]
+			stack.append(current)
+			# remove walls from *both* cells
+			var dir = next - current
 			var current_walls = pam(Map.get_cell_atlas_coords(current)) - cell_walls[dir]
 			var next_walls = pam(Map.get_cell_atlas_coords(next)) - cell_walls[-dir]
 			Map.set_cell(current, 0, map(current_walls))

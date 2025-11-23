@@ -1,0 +1,185 @@
+[gd_resource type="TileSet" load_steps=33 format=3 uid="uid://qghlrlr56540"]
+
+[ext_resource type="Texture2D" uid="uid://l1ris8626pfj" path="res://resources/isometric_roads/crossroad.png" id="1_5ntwh"]
+[ext_resource type="Texture2D" uid="uid://b3g0h1l3scqh1" path="res://resources/isometric_roads/crossroadNSW.png" id="2_1dax0"]
+[ext_resource type="Texture2D" uid="uid://ceu1asgwnucqg" path="res://resources/isometric_roads/roadEW.png" id="3_dljp8"]
+[ext_resource type="Texture2D" uid="uid://dajn3ysowwg44" path="res://resources/isometric_roads/endW.png" id="4_n6866"]
+[ext_resource type="Texture2D" uid="uid://bk8heuuij7gt8" path="res://resources/isometric_roads/roadES.png" id="5_x7in4"]
+[ext_resource type="Texture2D" uid="uid://cswlpuuxcl0hk" path="res://resources/isometric_roads/endS.png" id="6_ejbnj"]
+[ext_resource type="Texture2D" uid="uid://cnyfabnt1l3vw" path="res://resources/isometric_roads/endE.png" id="7_7myqt"]
+[ext_resource type="Texture2D" uid="uid://c11biqxgja5m6" path="res://resources/isometric_roads/grass.png" id="8_yoa7c"]
+[ext_resource type="Texture2D" uid="uid://d2hslalo0753g" path="res://resources/isometric_roads/crossroadNEW.png" id="9_cggtw"]
+[ext_resource type="Texture2D" uid="uid://h4701kdlgdgb" path="res://resources/isometric_roads/roadNW.png" id="10_5ai24"]
+[ext_resource type="Texture2D" uid="uid://dbcj3h0kckise" path="res://resources/isometric_roads/crossroadNES.png" id="11_dowlc"]
+[ext_resource type="Texture2D" uid="uid://k4m4uuek5407" path="res://resources/isometric_roads/roadNS.png" id="12_lv88y"]
+[ext_resource type="Texture2D" uid="uid://cw2ew2g068wii" path="res://resources/isometric_roads/roadNE.png" id="13_ow8fd"]
+[ext_resource type="Texture2D" uid="uid://bbacsn7dn05ma" path="res://resources/isometric_roads/endN.png" id="14_s2n55"]
+[ext_resource type="Texture2D" uid="uid://cayadj32g8j4s" path="res://resources/isometric_roads/crossroadESW.png" id="15_wll0h"]
+[ext_resource type="Texture2D" uid="uid://bx7tql55ca3r3" path="res://resources/isometric_roads/roadSW.png" id="16_mg3wo"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2fanl"]
+texture = ExtResource("1_5ntwh")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7t67m"]
+texture = ExtResource("2_1dax0")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q2rcp"]
+texture = ExtResource("3_dljp8")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wkn3q"]
+texture = ExtResource("4_n6866")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vxfwu"]
+texture = ExtResource("5_x7in4")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qjj8h"]
+texture = ExtResource("6_ejbnj")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5th5k"]
+texture = ExtResource("7_7myqt")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a6h5y"]
+texture = ExtResource("8_yoa7c")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v10ny"]
+texture = ExtResource("9_cggtw")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ex57"]
+texture = ExtResource("10_5ai24")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hr8hc"]
+texture = ExtResource("11_dowlc")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xneo2"]
+texture = ExtResource("12_lv88y")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3wlio"]
+texture = ExtResource("13_ow8fd")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_isgda"]
+texture = ExtResource("14_s2n55")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_edif4"]
+texture = ExtResource("15_wll0h")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ekuc8"]
+texture = ExtResource("16_mg3wo")
+texture_region_size = Vector2i(100, 65)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+
+[resource]
+tile_shape = 1
+tile_size = Vector2i(100, 65)
+terrain_set_0/mode = 2
+terrain_set_0/terrain_0/name = "Roads"
+terrain_set_0/terrain_0/color = Color(0.99999994, 0.2804472, 0.9133383, 1)
+sources/0 = SubResource("TileSetAtlasSource_2fanl")
+sources/1 = SubResource("TileSetAtlasSource_7t67m")
+sources/2 = SubResource("TileSetAtlasSource_v10ny")
+sources/3 = SubResource("TileSetAtlasSource_7ex57")
+sources/8 = SubResource("TileSetAtlasSource_edif4")
+sources/4 = SubResource("TileSetAtlasSource_hr8hc")
+sources/5 = SubResource("TileSetAtlasSource_xneo2")
+sources/6 = SubResource("TileSetAtlasSource_3wlio")
+sources/7 = SubResource("TileSetAtlasSource_isgda")
+sources/9 = SubResource("TileSetAtlasSource_ekuc8")
+sources/10 = SubResource("TileSetAtlasSource_q2rcp")
+sources/11 = SubResource("TileSetAtlasSource_wkn3q")
+sources/12 = SubResource("TileSetAtlasSource_vxfwu")
+sources/13 = SubResource("TileSetAtlasSource_qjj8h")
+sources/14 = SubResource("TileSetAtlasSource_5th5k")
+sources/15 = SubResource("TileSetAtlasSource_a6h5y")
