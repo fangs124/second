@@ -7,4 +7,5 @@
 script = ExtResource("1_wijl4")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+y_sort_enabled = true
 tile_set = ExtResource("2_wijl4")

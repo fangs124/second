@@ -163,7 +163,7 @@ texture_region_size = Vector2i(100, 65)
 
 [resource]
 tile_shape = 1
-tile_size = Vector2i(100, 65)
+tile_size = Vector2i(100, 50)
 terrain_set_0/mode = 2
 terrain_set_0/terrain_0/name = "Roads"
 terrain_set_0/terrain_0/color = Color(0.99999994, 0.2804472, 0.9133383, 1)
